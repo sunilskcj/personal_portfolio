@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import './Navbar.css';
+import About from '../About/About';
 function Navbar(){
     return(
         <nav class="navbar navbar-expand-lg ">
@@ -12,16 +14,20 @@ function Navbar(){
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <Link to='/'><a class="nav-link active" aria-current="page" >Home</a></Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+        <Link to='/feature'><a class="nav-link" >Features</a></Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+        <Link to='/'><a class="nav-link" >Pricing</a></Link>
+        </li>
+        
+        <li class="nav-item">
+        <Link to='/about'><a class="nav-link" >About</a></Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        <Link to='/'> <a class="nav-link " >Disabled</a></Link>
         </li>
       </ul> 
     </div>
