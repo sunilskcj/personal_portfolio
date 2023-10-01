@@ -1,0 +1,75 @@
+.headHome{
+    justify-content: center;
+    display: flex;
+   
+    align-items:center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.homeStyle{
+    display: flex;
+    height :80vh;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+
+
+.btn1{
+margin-right: 20px;
+padding: 16px 20px;
+gap: 10px;
+
+
+
+background: #5C62EC;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.btn2{
+    color: #26292D;
+padding: 16px 20px;
+gap: 8px;
+
+
+/* Blanco */
+
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.bodyHome{
+    box-sizing: border-box;
+
+/* Auto layout */
+color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px;
+gap: 32px;
+border: 1.5px solid #26292D;
+border-radius: 8px;
+justify-content: center;
+height: 30vh;
+width: 60vw;
+
+/* Rellenos */
+
+background: #1C1E22;
+}
+
