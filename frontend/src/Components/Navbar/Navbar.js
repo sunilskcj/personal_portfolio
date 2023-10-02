@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import About from '../About/About';
+
 function Navbar(){
     return(
         <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Sunil kumar</a>
+    <a class="navbar-brand" >Sunil kumar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <a class="navbar-toggler-icon"></a>
     </button>
     </div>
     <div>
@@ -27,7 +27,7 @@ function Navbar(){
         <Link to='/about'><a class="nav-link" >About</a></Link>
         </li>
         <li class="nav-item">
-        <Link to='/'> <a class="nav-link " >Disabled</a></Link>
+        <Link to='/disabled'> <a class="nav-link " >Disabled</a></Link>
         </li>
       </ul> 
     </div>
