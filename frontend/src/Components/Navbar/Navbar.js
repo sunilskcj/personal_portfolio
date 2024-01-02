@@ -17,18 +17,9 @@ function Navbar(){
           <Link to='/'><a class="nav-link active" aria-current="page" >Home</a></Link>
         </li>
         <li class="nav-item">
-        <Link to='/feature'><a class="nav-link" >Features</a></Link>
-        </li>
-        <li class="nav-item">
-        <Link to='/'><a class="nav-link" >Pricing</a></Link>
-        </li>
-        
-        <li class="nav-item">
         <Link to='/about'><a class="nav-link" >About</a></Link>
         </li>
-        <li class="nav-item">
-        <Link to='/disabled'> <a class="nav-link " >Disabled</a></Link>
-        </li>
+        
       </ul> 
     </div>
   </div>
